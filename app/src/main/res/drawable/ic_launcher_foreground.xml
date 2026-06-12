@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Blueprint grid lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.5"
+        android:strokeAlpha="0.3"
+        android:pathData="M24,24 L84,24 L84,84 L24,84 Z M24,44 L84,44 M24,64 L84,64 M44,24 L44,84 M64,24 L64,84" />
+
+    <!-- Left Tower Crane Structure -->
+    <!-- Tower mast -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,36 L38,72" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"
+        android:pathData="M32,36 L32,72 M32,72 L44,72" />
+    <!-- Cross braces in mast -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M32,40 L38,46 M38,40 L32,46 M32,48 L38,54 M38,48 L32,54 M32,56 L38,62 M38,56 L32,62 M32,64 L38,70 M38,64 L32,70" />
+    <!-- Cab and counterweight arm -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,32 h10 v4 h-10 z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,32 L66,32" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M24,32 L35,24 L40,32" />
+
+    <!-- Cable & Hanging Construction Cube -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.0"
+        android:pathData="M54,32 L54,42" />
+    <!-- The 3D Cube representing BOQ/Concrete -->
+    <!-- Front Face -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M48,46 L60,46 L60,56 L48,56 Z" />
+    <!-- Top Face -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M48,46 L53,42 L65,42 L60,46 Z" />
+    <!-- Right Face -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M60,46 L65,42 L65,52 L60,56 Z" />
+
+    <!-- Glowing Brain AI logic microchip (bottom right) -->
+    <!-- Brain left hemisphere -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M70,64 C68,64 67,65 67,67 C67,68 66,69 68,70 C66,71 66,72 67,73 C68,73 69,74 70,74" />
+    <!-- Brain right hemisphere with microchip connections -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M74,64 L77,64 M74,68 L78,68 M74,72 L77,72" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,63 h2 v12 h-2 z" />
+
+    <!-- Modern Typography: BOQ AI -->
+    <!-- Custom elegant curved and block paths for letters at the bottom zone -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,82 C38,84 41,84 43,84 C45,84 48,84 48,82 C48,79 43,78 45,76 C47,75 42,75 39,76 Z" /> <!-- S -->
+    <!-- Let's draw clean paths representing lettering "BOQ AI" at Y=80..86 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,76 h4 C41,76 42,77 42,78.5 C42,79.5 41,80.5 39.5,80.5 h-4.5 Z M35,80.5 h5 C46.5,80.5 43,85 39.5,85 h-4.5 Z" /> <!-- B -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M48,80.5 C48,77.5 54,77.5 54,80.5 C54,83.5 48,83.5 48,80.5 Z" /> <!-- O -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M58,80.5 C58,77.5 64,77.5 64,80.5 C64,83.5 58,83.5 58,80.5 Z M62,82 L65,85" /> <!-- Q -->
+    <!-- AI Text -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M71,85 L74,76 L77,85 M72,82 h4" /> <!-- A -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M81,76 v9 M79,76 h4 M79,85 h4" /> <!-- I -->
+</vector>
